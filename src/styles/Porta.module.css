@@ -1,9 +1,20 @@
-.porta{
+.area{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     width: var(--area-porta-largura);
     height: var(--area-porta-altura);
+}
+.frame{
+    display: flex;
+    flex-grow: 1;
+    border-left: 5px solid brown;
+    border-top: 5px solid brown;
+    border-right: 5px solid brown;
+}
+.porta{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
     background-color: chocolate;
 }
 .numero{
