@@ -3,7 +3,10 @@ import Presente from "../components/Presente";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{display:"flex"}}>
+      <Porta />
+      <Porta />
+      <Porta />
       <Porta />
     </div>
   )
