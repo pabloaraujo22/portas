@@ -1,3 +1,4 @@
+import criarPortas from "../../functions/portas"
 import PortaModel from "../../model/Porta"
 import styles from "../styles/Porta.module.css"
 
@@ -15,6 +16,9 @@ export default function Porta(props: PortaProps) {
         e.stopPropagation()
         props.onChange(porta.abrir())
     }
+
+    console.log(criarPortas(10,3))
+
 
     function renderizarPorta() {
         return(
