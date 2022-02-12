@@ -1,0 +1,9 @@
+.cartao {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  justify-content: center;
+  align-items: center;
+}
