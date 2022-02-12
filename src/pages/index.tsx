@@ -1,10 +1,7 @@
-
 export default function Home() {
-  
-
-  return (
-    <div>
-      <h1> Inicializar Jogo! </h1>
-  </div>
-  )
+    return (
+        <div>
+            <h1> Fomulário de Inicio </h1>
+        </div>
+    );
 }
