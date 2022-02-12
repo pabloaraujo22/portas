@@ -6,7 +6,7 @@ import {criarPortas, atualizarPortas} from "../../functions/portas"
 
 export default function Home() {
   
-  const [portas, setPortas] = useState(criarPortas(3,2))
+  const [portas, setPortas] = useState(criarPortas(10,2))
   
  function renderizarPortas() {
    return portas.map(porta=>{
